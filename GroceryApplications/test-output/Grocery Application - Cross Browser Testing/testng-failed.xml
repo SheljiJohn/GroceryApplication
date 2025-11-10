@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Grocery Application - Cross Browser Testing]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="ChromeTest(failed)">
+    <parameter name="browser" value="Chrome"/>
+    <classes>
+      <class name="testScript.AdminUsersTest">
+        <methods>
+          <include name="VerifyTheUserIsAbleToAddAdminUsers"/>
+          <include name="windowCloseAndQuit"/>
+          <include name="initializeBrowser"/>
+        </methods>
+      </class> <!-- testScript.AdminUsersTest -->
+      <class name="testScript.ManageCategoryTest">
+        <methods>
+          <include name="VerifyTheUserIsAbleToAddCategory"/>
+          <include name="windowCloseAndQuit"/>
+          <include name="initializeBrowser"/>
+        </methods>
+      </class> <!-- testScript.ManageCategoryTest -->
+    </classes>
+  </test> <!-- ChromeTest(failed) -->
+  <test thread-count="5" name="FirefoxTest(failed)">
+    <parameter name="browser" value="FireFox"/>
+    <classes>
+      <class name="testScript.AdminUsersTest">
+        <methods>
+          <include name="VerifyTheUserIsAbleToAddAdminUsers"/>
+          <include name="windowCloseAndQuit"/>
+          <include name="initializeBrowser"/>
+        </methods>
+      </class> <!-- testScript.AdminUsersTest -->
+      <class name="testScript.ManageCategoryTest">
+        <methods>
+          <include name="VerifyTheUserIsAbleToAddCategory"/>
+          <include name="windowCloseAndQuit"/>
+          <include name="initializeBrowser"/>
+        </methods>
+      </class> <!-- testScript.ManageCategoryTest -->
+    </classes>
+  </test> <!-- FirefoxTest(failed) -->
+</suite> <!-- Failed suite [Grocery Application - Cross Browser Testing] -->

@@ -1,0 +1,14 @@
+pages\LoginPage.class
+utilities\FakerUtility.class
+utilities\ExtentReportUtility.class
+utilities\ExcelUtility.class
+pages\ManageContactPage.class
+pages\ManageFooterTextPage.class
+pages\LogoutPage.class
+utilities\PageUtilities.class
+constant\Constant.class
+pages\ManageCategoryPage.class
+pages\ManageNewsPage.class
+utilities\FileUploadUtility.class
+utilities\WaitUtilities.class
+pages\AdminUsersPage.class

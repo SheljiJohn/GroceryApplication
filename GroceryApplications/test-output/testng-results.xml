@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-11-07T19:10:15 GST" name="Grocery Application" finished-at="2025-11-07T19:11:06 GST" duration-ms="51086">
+    <groups>
+      <group name="Regression Testing">
+        <method signature="AdminUsersTest.VerifyTheUserIsAbleToAddAdminUsers()[pri:0, instance:testScript.AdminUsersTest@642a7222]" name="VerifyTheUserIsAbleToAddAdminUsers" class="testScript.AdminUsersTest"/>
+        <method signature="LoginTest.verifyTheUserIsAbleToLoginUsingValidCredentials()[pri:0, instance:testScript.LoginTest@14dd7b39]" name="verifyTheUserIsAbleToLoginUsingValidCredentials" class="testScript.LoginTest"/>
+        <method signature="ManageNewsTest.VerifyTheUserIsAbleToPublishNews()[pri:0, instance:testScript.ManageNewsTest@311bf055]" name="VerifyTheUserIsAbleToPublishNews" class="testScript.ManageNewsTest"/>
+      </group> <!-- Regression Testing -->
+    </groups>
+    <test started-at="2025-11-07T19:10:15 GST" name="Manage News" finished-at="2025-11-07T19:11:06 GST" duration-ms="51086">
+      <class name="testScript.LoginTest">
+        <test-method is-config="true" signature="initializeBrowser(java.lang.String)[pri:0, instance:testScript.LoginTest@14dd7b39]" started-at="2025-11-07T19:10:15 GST" name="initializeBrowser" finished-at="2025-11-07T19:10:22 GST" duration-ms="6933" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeBrowser -->
+        <test-method signature="verifyTheUserIsAbleToLoginUsingValidCredentials()[pri:0, instance:testScript.LoginTest@14dd7b39]" started-at="2025-11-07T19:10:22 GST" name="verifyTheUserIsAbleToLoginUsingValidCredentials" description="Login to Grocery application with valid username and password" finished-at="2025-11-07T19:10:26 GST" duration-ms="3673" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTheUserIsAbleToLoginUsingValidCredentials -->
+        <test-method is-config="true" signature="windowCloseAndQuit()[pri:0, instance:testScript.LoginTest@14dd7b39]" started-at="2025-11-07T19:10:26 GST" name="windowCloseAndQuit" finished-at="2025-11-07T19:10:26 GST" duration-ms="294" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- windowCloseAndQuit -->
+        <test-method is-config="true" signature="initializeBrowser(java.lang.String)[pri:0, instance:testScript.LoginTest@14dd7b39]" started-at="2025-11-07T19:10:26 GST" name="initializeBrowser" finished-at="2025-11-07T19:10:31 GST" duration-ms="5127" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeBrowser -->
+        <test-method signature="verifyTheUserIsUnableToLoginwithInvalidUsernameandValidPassword()[pri:0, instance:testScript.LoginTest@14dd7b39]" started-at="2025-11-07T19:10:31 GST" name="verifyTheUserIsUnableToLoginwithInvalidUsernameandValidPassword" description="Login to Grocery application with invalid username and valid password" finished-at="2025-11-07T19:10:33 GST" duration-ms="1687" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTheUserIsUnableToLoginwithInvalidUsernameandValidPassword -->
+        <test-method is-config="true" signature="windowCloseAndQuit()[pri:0, instance:testScript.LoginTest@14dd7b39]" started-at="2025-11-07T19:10:33 GST" name="windowCloseAndQuit" finished-at="2025-11-07T19:10:33 GST" duration-ms="267" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- windowCloseAndQuit -->
+        <test-method is-config="true" signature="initializeBrowser(java.lang.String)[pri:0, instance:testScript.LoginTest@14dd7b39]" started-at="2025-11-07T19:10:33 GST" name="initializeBrowser" finished-at="2025-11-07T19:10:38 GST" duration-ms="4377" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeBrowser -->
+        <test-method signature="verifyTheUserIsUnableToLoginwithValidUsernameandInvalidPassword()[pri:0, instance:testScript.LoginTest@14dd7b39]" started-at="2025-11-07T19:10:38 GST" name="verifyTheUserIsUnableToLoginwithValidUsernameandInvalidPassword" description="Login to Grocery application with valid username and invalid password" finished-at="2025-11-07T19:10:39 GST" duration-ms="959" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTheUserIsUnableToLoginwithValidUsernameandInvalidPassword -->
+        <test-method is-config="true" signature="windowCloseAndQuit()[pri:0, instance:testScript.LoginTest@14dd7b39]" started-at="2025-11-07T19:10:39 GST" name="windowCloseAndQuit" finished-at="2025-11-07T19:10:39 GST" duration-ms="306" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- windowCloseAndQuit -->
+        <test-method is-config="true" signature="initializeBrowser(java.lang.String)[pri:0, instance:testScript.LoginTest@14dd7b39]" started-at="2025-11-07T19:10:39 GST" name="initializeBrowser" finished-at="2025-11-07T19:10:43 GST" duration-ms="4131" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeBrowser -->
+        <test-method signature="verifyTheUserIsUnableToLoginwithInValidUsernameandInvalidPassword()[pri:0, instance:testScript.LoginTest@14dd7b39]" started-at="2025-11-07T19:10:43 GST" name="verifyTheUserIsUnableToLoginwithInValidUsernameandInvalidPassword" description="Login to Grocery application with invalid username and password" finished-at="2025-11-07T19:10:44 GST" duration-ms="982" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTheUserIsUnableToLoginwithInValidUsernameandInvalidPassword -->
+        <test-method is-config="true" signature="windowCloseAndQuit()[pri:0, instance:testScript.LoginTest@14dd7b39]" started-at="2025-11-07T19:10:44 GST" name="windowCloseAndQuit" finished-at="2025-11-07T19:10:44 GST" duration-ms="264" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- windowCloseAndQuit -->
+      </class> <!-- testScript.LoginTest -->
+      <class name="testScript.ManageNewsTest">
+        <test-method is-config="true" signature="initializeBrowser(java.lang.String)[pri:0, instance:testScript.ManageNewsTest@311bf055]" started-at="2025-11-07T19:10:44 GST" name="initializeBrowser" finished-at="2025-11-07T19:10:49 GST" duration-ms="4672" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeBrowser -->
+        <test-method signature="VerifyTheUserIsAbleToPublishNews()[pri:0, instance:testScript.ManageNewsTest@311bf055]" started-at="2025-11-07T19:10:49 GST" name="VerifyTheUserIsAbleToPublishNews" description="To publish News" finished-at="2025-11-07T19:10:54 GST" duration-ms="5165" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyTheUserIsAbleToPublishNews -->
+        <test-method is-config="true" signature="windowCloseAndQuit()[pri:0, instance:testScript.ManageNewsTest@311bf055]" started-at="2025-11-07T19:10:54 GST" name="windowCloseAndQuit" finished-at="2025-11-07T19:10:54 GST" duration-ms="315" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- windowCloseAndQuit -->
+      </class> <!-- testScript.ManageNewsTest -->
+      <class name="testScript.AdminUsersTest">
+        <test-method is-config="true" signature="initializeBrowser(java.lang.String)[pri:0, instance:testScript.AdminUsersTest@642a7222]" started-at="2025-11-07T19:10:54 GST" name="initializeBrowser" finished-at="2025-11-07T19:10:59 GST" duration-ms="4686" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeBrowser -->
+        <test-method signature="VerifyTheUserIsAbleToAddAdminUsers()[pri:0, instance:testScript.AdminUsersTest@642a7222]" started-at="2025-11-07T19:10:59 GST" name="VerifyTheUserIsAbleToAddAdminUsers" description="To add admin users with user type" finished-at="2025-11-07T19:11:06 GST" duration-ms="6803" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyTheUserIsAbleToAddAdminUsers -->
+        <test-method is-config="true" signature="windowCloseAndQuit()[pri:0, instance:testScript.AdminUsersTest@642a7222]" started-at="2025-11-07T19:11:06 GST" name="windowCloseAndQuit" finished-at="2025-11-07T19:11:06 GST" duration-ms="280" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- windowCloseAndQuit -->
+      </class> <!-- testScript.AdminUsersTest -->
+    </test> <!-- Manage News -->
+  </suite> <!-- Grocery Application -->
+</testng-results>
