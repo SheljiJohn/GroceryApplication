@@ -7,12 +7,16 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import constant.Constant;
+import pages.HomePage;
 import pages.LoginPage;
 import utilities.ExcelUtility;
 
 public class LoginTest extends Base
 
 {
+	
+	public HomePage homepage;
+	
 	@Test(description = "Login to Grocery application with valid username and password", groups = {
 			"Regression Testing" })
 	public void verifyTheUserIsAbleToLoginUsingValidCredentials() throws IOException {
@@ -25,7 +29,7 @@ public class LoginTest extends Base
 		LoginPage login = new LoginPage(driver);
 		login.enterTheUserName(username).enterThePassword(password).clickOnSignIn();
 		// login.enterThePassword(password);
-		login.clickOnSignIn();
+		homepage = login.clickOnSignIn();
 
 		// Assertion
 		boolean visibilty = login.isHomePageLoaded();

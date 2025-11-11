@@ -4,7 +4,7 @@
 <suite name="Grocery Application">
 <listeners><listener class-name="generateReport.Listeners"></listener></listeners>
  <parameter name="browser" value="Chrome"></parameter>
-    <test name="Manage News">
+    <test name="grocery application">
         <classes>
             <class name="testScript.LoginTest">
             	<methods>
@@ -13,7 +13,16 @@
             </class>
             <class name="testScript.ManageNewsTest">
              </class>
-            
+             <class name="testScript.AdminUsersTest">
+             </class>
+             <class name="testScript.ManageFooterTextTest">
+             </class>
+             <class name="testScript.ManageContactTest">
+             </class>
+             <class name="testScript.ManageCategoryTest">
+             </class>
+             <class name="testScript.LogoutTest">
+             </class>
         </classes>
     </test>
 </suite>

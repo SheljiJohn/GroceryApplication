@@ -32,7 +32,7 @@ public class Base {
 		// driver = new ChromeDriver();
 
 		// fetching url
-		try {
+	/*	try {
 
 			properties = new Properties();
 
@@ -41,7 +41,7 @@ public class Base {
 			properties.load(fileinput);
 		} catch (Exception e) {
 			System.out.println(e);
-		}
+		} */
 
 		if (browser.equalsIgnoreCase("Chrome")) {
 			driver = new ChromeDriver();
@@ -55,9 +55,9 @@ public class Base {
 			throw new Exception("Browser not defined!!!!!!");
 		}
 
-		// driver.get("https://groceryapp.uniqassosiates.com/admin/login");
+		 driver.get("https://groceryapp.uniqassosiates.com/admin/login");
 		// fetching url from file
-		driver.get(properties.getProperty("url"));
+	//	driver.get(properties.getProperty("url"));
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(WaitUtilities.IMPLICITWAIT));
 		driver.manage().window().maximize();
 	}
