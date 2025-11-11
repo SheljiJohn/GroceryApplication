@@ -7,27 +7,13 @@
   </listeners>
   <test thread-count="5" name="Manage News(failed)">
     <classes>
-      <class name="testScript.LoginTest">
+      <class name="testScript.LoginTest1">
         <methods>
           <include name="verifyTheUserIsAbleToLoginUsingValidCredentials"/>
           <include name="windowCloseAndQuit"/>
           <include name="initializeBrowser"/>
         </methods>
-      </class> <!-- testScript.LoginTest -->
-      <class name="testScript.ManageCategoryTest">
-        <methods>
-          <include name="VerifyTheUserIsAbleToAddCategory"/>
-          <include name="windowCloseAndQuit"/>
-          <include name="initializeBrowser"/>
-        </methods>
-      </class> <!-- testScript.ManageCategoryTest -->
-      <class name="testScript.AdminUsersTest">
-        <methods>
-          <include name="VerifyTheUserIsAbleToAddAdminUsers"/>
-          <include name="windowCloseAndQuit"/>
-          <include name="initializeBrowser"/>
-        </methods>
-      </class> <!-- testScript.AdminUsersTest -->
+      </class> <!-- testScript.LoginTest1 -->
     </classes>
   </test> <!-- Manage News(failed) -->
 </suite> <!-- Failed suite [Grocery Application] -->

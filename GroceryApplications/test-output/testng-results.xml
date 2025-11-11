@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="7" passed="4" failed="3" skipped="0">
+<testng-results ignored="0" total="10" passed="9" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-11-11T18:55:56 GST" name="Grocery Application" finished-at="2025-11-11T18:57:38 GST" duration-ms="101966">
+  <suite started-at="2025-11-12T00:35:47 GST" name="SmartCart Supermarket" finished-at="2025-11-12T00:37:51 GST" duration-ms="123416">
     <groups>
       <group name="Regression Testing">
-        <method signature="AdminUsersTest.VerifyTheUserIsAbleToAddAdminUsers()[pri:0, instance:testScript.AdminUsersTest@2235eaab]" name="VerifyTheUserIsAbleToAddAdminUsers" class="testScript.AdminUsersTest"/>
-        <method signature="HomeTest.VerifyTheUserIsAbleToLogout()[pri:0, instance:testScript.HomeTest@36804139]" name="VerifyTheUserIsAbleToLogout" class="testScript.HomeTest"/>
-        <method signature="LoginTest.verifyTheUserIsAbleToLoginUsingValidCredentials()[pri:0, instance:testScript.LoginTest@38145825]" name="verifyTheUserIsAbleToLoginUsingValidCredentials" class="testScript.LoginTest"/>
-        <method signature="ManageCategoryTest.VerifyTheUserIsAbleToAddCategory()[pri:0, instance:testScript.ManageCategoryTest@3b6d844d]" name="VerifyTheUserIsAbleToAddCategory" class="testScript.ManageCategoryTest"/>
-        <method signature="ManageContactTest.VerifyTheUserIsAbleToUpdateContactDetails()[pri:0, instance:testScript.ManageContactTest@3bcd05cb]" name="VerifyTheUserIsAbleToUpdateContactDetails" class="testScript.ManageContactTest"/>
-        <method signature="ManageFooterTextTest.VerifyTheUserIsAbleToUpdateFooterText()[pri:0, instance:testScript.ManageFooterTextTest@17503f6b]" name="VerifyTheUserIsAbleToUpdateFooterText" class="testScript.ManageFooterTextTest"/>
-        <method signature="ManageNewsTest.VerifyTheUserIsAbleToPublishNews()[pri:0, instance:testScript.ManageNewsTest@13526e59]" name="VerifyTheUserIsAbleToPublishNews" class="testScript.ManageNewsTest"/>
+        <method signature="AdminUsersTest.VerifyTheUserIsAbleToAddAdminUsers()[pri:0, instance:testScript.AdminUsersTest@78452606]" name="VerifyTheUserIsAbleToAddAdminUsers" class="testScript.AdminUsersTest"/>
+        <method signature="HomeTest.VerifyTheUserIsAbleToLogout()[pri:0, instance:testScript.HomeTest@7098b907]" name="VerifyTheUserIsAbleToLogout" class="testScript.HomeTest"/>
+        <method signature="LoginTest.verifyTheUserIsAbleToLoginUsingValidCredentials()[pri:0, instance:testScript.LoginTest@51891008]" name="verifyTheUserIsAbleToLoginUsingValidCredentials" class="testScript.LoginTest"/>
+        <method signature="ManageCategoryTest.VerifyTheUserIsAbleToAddCategory()[pri:0, instance:testScript.ManageCategoryTest@147e2ae7]" name="VerifyTheUserIsAbleToAddCategory" class="testScript.ManageCategoryTest"/>
+        <method signature="ManageContactTest.VerifyTheUserIsAbleToUpdateContactDetails()[pri:0, instance:testScript.ManageContactTest@448c8166]" name="VerifyTheUserIsAbleToUpdateContactDetails" class="testScript.ManageContactTest"/>
+        <method signature="ManageFooterTextTest.VerifyTheUserIsAbleToUpdateFooterText()[pri:0, instance:testScript.ManageFooterTextTest@4470fbd6]" name="VerifyTheUserIsAbleToUpdateFooterText" class="testScript.ManageFooterTextTest"/>
+        <method signature="ManageNewsTest.VerifyTheUserIsAbleToPublishNews()[pri:0, instance:testScript.ManageNewsTest@15d49048]" name="VerifyTheUserIsAbleToPublishNews" class="testScript.ManageNewsTest"/>
       </group> <!-- Regression Testing -->
     </groups>
-    <test started-at="2025-11-11T18:55:56 GST" name="Manage News" finished-at="2025-11-11T18:57:38 GST" duration-ms="101966">
+    <test started-at="2025-11-12T00:35:47 GST" name="SmartCart Supermarket Automation - Phase 1" finished-at="2025-11-12T00:37:51 GST" duration-ms="123416">
       <class name="testScript.ManageContactTest">
-        <test-method is-config="true" signature="initializeBrowser(java.lang.String)[pri:0, instance:testScript.ManageContactTest@3bcd05cb]" started-at="2025-11-11T18:56:59 GST" name="initializeBrowser" finished-at="2025-11-11T18:57:04 GST" duration-ms="4983" status="PASS">
+        <test-method is-config="true" signature="initializeBrowser(java.lang.String)[pri:0, instance:testScript.ManageContactTest@448c8166]" started-at="2025-11-12T00:36:57 GST" name="initializeBrowser" finished-at="2025-11-12T00:37:05 GST" duration-ms="8316" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -27,17 +27,17 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initializeBrowser -->
-        <test-method signature="VerifyTheUserIsAbleToUpdateContactDetails()[pri:0, instance:testScript.ManageContactTest@3bcd05cb]" started-at="2025-11-11T18:57:04 GST" name="VerifyTheUserIsAbleToUpdateContactDetails" description=" To update contact details" finished-at="2025-11-11T18:57:12 GST" duration-ms="7364" status="PASS">
+        <test-method signature="VerifyTheUserIsAbleToUpdateContactDetails()[pri:0, instance:testScript.ManageContactTest@448c8166]" started-at="2025-11-12T00:37:05 GST" name="VerifyTheUserIsAbleToUpdateContactDetails" description=" To update contact details" finished-at="2025-11-12T00:37:12 GST" duration-ms="6815" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifyTheUserIsAbleToUpdateContactDetails -->
-        <test-method is-config="true" signature="windowCloseAndQuit()[pri:0, instance:testScript.ManageContactTest@3bcd05cb]" started-at="2025-11-11T18:57:12 GST" name="windowCloseAndQuit" finished-at="2025-11-11T18:57:12 GST" duration-ms="339" status="PASS">
+        <test-method is-config="true" signature="windowCloseAndQuit()[pri:0, instance:testScript.ManageContactTest@448c8166]" started-at="2025-11-12T00:37:12 GST" name="windowCloseAndQuit" finished-at="2025-11-12T00:37:12 GST" duration-ms="437" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- windowCloseAndQuit -->
       </class> <!-- testScript.ManageContactTest -->
       <class name="testScript.LoginTest">
-        <test-method is-config="true" signature="initializeBrowser(java.lang.String)[pri:0, instance:testScript.LoginTest@38145825]" started-at="2025-11-11T18:55:56 GST" name="initializeBrowser" finished-at="2025-11-11T18:56:05 GST" duration-ms="8498" status="PASS">
+        <test-method is-config="true" signature="initializeBrowser(java.lang.String)[pri:0, instance:testScript.LoginTest@51891008]" started-at="2025-11-12T00:35:47 GST" name="initializeBrowser" finished-at="2025-11-12T00:35:54 GST" duration-ms="6903" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -48,87 +48,74 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initializeBrowser -->
-        <test-method signature="verifyTheUserIsAbleToLoginUsingValidCredentials()[pri:0, instance:testScript.LoginTest@38145825]" started-at="2025-11-11T18:56:05 GST" name="verifyTheUserIsAbleToLoginUsingValidCredentials" description="Login to Grocery application with valid username and password" finished-at="2025-11-11T18:56:14 GST" duration-ms="9218" status="FAIL">
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//button[text()='Sign In']"}
-  (Session info: chrome=142.0.7444.60)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.31.0', revision: '1ef9f18787*'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [2555715c62afff29abb764f06e28cc42, findElement {using=xpath, value=//button[text()='Sign In']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.60, chrome: {chromedriverVersion: 142.0.7444.61 (9884f628acbc..., userDataDir: C:\Users\shelj\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49835}, goog:processID: 9340, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49835/devtoo..., se:cdpVersion: 142.0.7444.60, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 2555715c62afff29abb764f06e28cc42]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//button[text()='Sign In']"}
-  (Session info: chrome=142.0.7444.60)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.31.0', revision: '1ef9f18787*'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [2555715c62afff29abb764f06e28cc42, findElement {using=xpath, value=//button[text()='Sign In']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.60, chrome: {chromedriverVersion: 142.0.7444.61 (9884f628acbc..., userDataDir: C:\Users\shelj\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49835}, goog:processID: 9340, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49835/devtoo..., se:cdpVersion: 142.0.7444.60, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 2555715c62afff29abb764f06e28cc42
-at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
-at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
-at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
-at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-at jdk.proxy2/jdk.proxy2.$Proxy15.click(Unknown Source)
-at pages.LoginPage.clickOnSignIn(LoginPage.java:39)
-at testScript.LoginTest.verifyTheUserIsAbleToLoginUsingValidCredentials(LoginTest.java:32)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at org.testng.TestRunner.privateRun(TestRunner.java:739)
-at org.testng.TestRunner.run(TestRunner.java:614)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+        <test-method signature="verifyTheUserIsAbleToLoginUsingValidCredentials()[pri:0, instance:testScript.LoginTest@51891008]" started-at="2025-11-12T00:35:54 GST" name="verifyTheUserIsAbleToLoginUsingValidCredentials" description="Login to Grocery application with valid username and password" finished-at="2025-11-12T00:35:57 GST" duration-ms="2973" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyTheUserIsAbleToLoginUsingValidCredentials -->
-        <test-method is-config="true" signature="windowCloseAndQuit()[pri:0, instance:testScript.LoginTest@38145825]" started-at="2025-11-11T18:56:14 GST" name="windowCloseAndQuit" finished-at="2025-11-11T18:56:14 GST" duration-ms="370" status="PASS">
+        <test-method is-config="true" signature="windowCloseAndQuit()[pri:0, instance:testScript.LoginTest@51891008]" started-at="2025-11-12T00:35:57 GST" name="windowCloseAndQuit" finished-at="2025-11-12T00:35:57 GST" duration-ms="384" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- windowCloseAndQuit -->
+        <test-method is-config="true" signature="initializeBrowser(java.lang.String)[pri:0, instance:testScript.LoginTest@51891008]" started-at="2025-11-12T00:35:57 GST" name="initializeBrowser" finished-at="2025-11-12T00:36:05 GST" duration-ms="7507" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeBrowser -->
+        <test-method signature="verifyTheUserIsUnableToLoginwithInValidUsernameandInvalidPassword()[pri:0, instance:testScript.LoginTest@51891008]" started-at="2025-11-12T00:36:05 GST" name="verifyTheUserIsUnableToLoginwithInValidUsernameandInvalidPassword" description="Login to Grocery application with invalid username and password" finished-at="2025-11-12T00:36:06 GST" duration-ms="1152" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTheUserIsUnableToLoginwithInValidUsernameandInvalidPassword -->
+        <test-method is-config="true" signature="windowCloseAndQuit()[pri:0, instance:testScript.LoginTest@51891008]" started-at="2025-11-12T00:36:06 GST" name="windowCloseAndQuit" finished-at="2025-11-12T00:36:07 GST" duration-ms="360" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- windowCloseAndQuit -->
+        <test-method is-config="true" signature="initializeBrowser(java.lang.String)[pri:0, instance:testScript.LoginTest@51891008]" started-at="2025-11-12T00:36:07 GST" name="initializeBrowser" finished-at="2025-11-12T00:36:14 GST" duration-ms="7719" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeBrowser -->
+        <test-method signature="verifyTheUserIsUnableToLoginwithInvalidUsernameandValidPassword()[pri:0, instance:testScript.LoginTest@51891008]" started-at="2025-11-12T00:36:14 GST" name="verifyTheUserIsUnableToLoginwithInvalidUsernameandValidPassword" description="Login to Grocery application with invalid username and valid password" finished-at="2025-11-12T00:36:15 GST" duration-ms="1238" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTheUserIsUnableToLoginwithInvalidUsernameandValidPassword -->
+        <test-method is-config="true" signature="windowCloseAndQuit()[pri:0, instance:testScript.LoginTest@51891008]" started-at="2025-11-12T00:36:15 GST" name="windowCloseAndQuit" finished-at="2025-11-12T00:36:16 GST" duration-ms="345" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- windowCloseAndQuit -->
+        <test-method is-config="true" signature="initializeBrowser(java.lang.String)[pri:0, instance:testScript.LoginTest@51891008]" started-at="2025-11-12T00:36:16 GST" name="initializeBrowser" finished-at="2025-11-12T00:36:24 GST" duration-ms="7890" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeBrowser -->
+        <test-method signature="verifyTheUserIsUnableToLoginwithValidUsernameandInvalidPassword()[pri:0, instance:testScript.LoginTest@51891008]" started-at="2025-11-12T00:36:24 GST" name="verifyTheUserIsUnableToLoginwithValidUsernameandInvalidPassword" description="Login to Grocery application with valid username and invalid password" finished-at="2025-11-12T00:36:25 GST" duration-ms="1151" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTheUserIsUnableToLoginwithValidUsernameandInvalidPassword -->
+        <test-method is-config="true" signature="windowCloseAndQuit()[pri:0, instance:testScript.LoginTest@51891008]" started-at="2025-11-12T00:36:25 GST" name="windowCloseAndQuit" finished-at="2025-11-12T00:36:25 GST" duration-ms="403" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- windowCloseAndQuit -->
       </class> <!-- testScript.LoginTest -->
       <class name="testScript.ManageCategoryTest">
-        <test-method is-config="true" signature="initializeBrowser(java.lang.String)[pri:0, instance:testScript.ManageCategoryTest@3b6d844d]" started-at="2025-11-11T18:57:12 GST" name="initializeBrowser" finished-at="2025-11-11T18:57:17 GST" duration-ms="5320" status="PASS">
+        <test-method is-config="true" signature="initializeBrowser(java.lang.String)[pri:0, instance:testScript.ManageCategoryTest@147e2ae7]" started-at="2025-11-12T00:36:38 GST" name="initializeBrowser" finished-at="2025-11-12T00:36:46 GST" duration-ms="8229" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -139,7 +126,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initializeBrowser -->
-        <test-method signature="VerifyTheUserIsAbleToAddCategory()[pri:0, instance:testScript.ManageCategoryTest@3b6d844d]" started-at="2025-11-11T18:57:17 GST" name="VerifyTheUserIsAbleToAddCategory" description="To add New category" finished-at="2025-11-11T18:57:28 GST" duration-ms="11087" status="FAIL">
+        <test-method signature="VerifyTheUserIsAbleToAddCategory()[pri:0, instance:testScript.ManageCategoryTest@147e2ae7]" started-at="2025-11-12T00:36:46 GST" name="VerifyTheUserIsAbleToAddCategory" description="To add New category" finished-at="2025-11-12T00:36:56 GST" duration-ms="10023" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='alert alert-success alert-dismissible']//following::h5[text()=' Alert!']"}
@@ -148,9 +135,9 @@ For documentation on this error, please visit: https://www.selenium.dev/document
 Build info: version: '4.31.0', revision: '1ef9f18787*'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [3d91603f88876ebf2e3816bfbbc47dde, findElement {using=xpath, value=//div[@class='alert alert-success alert-dismissible']//following::h5[text()=' Alert!']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.60, chrome: {chromedriverVersion: 142.0.7444.61 (9884f628acbc..., userDataDir: C:\Users\shelj\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60458}, goog:processID: 25104, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60458/devtoo..., se:cdpVersion: 142.0.7444.60, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 3d91603f88876ebf2e3816bfbbc47dde]]>
+Command: [34825c5a18332b0567354932a15c72fd, findElement {value=//div[@class='alert alert-success alert-dismissible']//following::h5[text()=' Alert!'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.60, chrome: {chromedriverVersion: 142.0.7444.162 (c076baf266c..., userDataDir: C:\Users\shelj\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59088}, goog:processID: 8840, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59088/devtoo..., se:cdpVersion: 142.0.7444.60, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 34825c5a18332b0567354932a15c72fd]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='alert alert-success alert-dismissible']//following::h5[text()=' Alert!']"}
@@ -159,9 +146,9 @@ For documentation on this error, please visit: https://www.selenium.dev/document
 Build info: version: '4.31.0', revision: '1ef9f18787*'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [3d91603f88876ebf2e3816bfbbc47dde, findElement {using=xpath, value=//div[@class='alert alert-success alert-dismissible']//following::h5[text()=' Alert!']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.60, chrome: {chromedriverVersion: 142.0.7444.61 (9884f628acbc..., userDataDir: C:\Users\shelj\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60458}, goog:processID: 25104, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60458/devtoo..., se:cdpVersion: 142.0.7444.60, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 3d91603f88876ebf2e3816bfbbc47dde
+Command: [34825c5a18332b0567354932a15c72fd, findElement {value=//div[@class='alert alert-success alert-dismissible']//following::h5[text()=' Alert!'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.60, chrome: {chromedriverVersion: 142.0.7444.162 (c076baf266c..., userDataDir: C:\Users\shelj\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59088}, goog:processID: 8840, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59088/devtoo..., se:cdpVersion: 142.0.7444.60, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 34825c5a18332b0567354932a15c72fd
 at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
 at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
 at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
@@ -213,13 +200,13 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifyTheUserIsAbleToAddCategory -->
-        <test-method is-config="true" signature="windowCloseAndQuit()[pri:0, instance:testScript.ManageCategoryTest@3b6d844d]" started-at="2025-11-11T18:57:28 GST" name="windowCloseAndQuit" finished-at="2025-11-11T18:57:29 GST" duration-ms="310" status="PASS">
+        <test-method is-config="true" signature="windowCloseAndQuit()[pri:0, instance:testScript.ManageCategoryTest@147e2ae7]" started-at="2025-11-12T00:36:56 GST" name="windowCloseAndQuit" finished-at="2025-11-12T00:36:57 GST" duration-ms="372" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- windowCloseAndQuit -->
       </class> <!-- testScript.ManageCategoryTest -->
       <class name="testScript.ManageNewsTest">
-        <test-method is-config="true" signature="initializeBrowser(java.lang.String)[pri:0, instance:testScript.ManageNewsTest@13526e59]" started-at="2025-11-11T18:56:14 GST" name="initializeBrowser" finished-at="2025-11-11T18:56:20 GST" duration-ms="5380" status="PASS">
+        <test-method is-config="true" signature="initializeBrowser(java.lang.String)[pri:0, instance:testScript.ManageNewsTest@15d49048]" started-at="2025-11-12T00:37:26 GST" name="initializeBrowser" finished-at="2025-11-12T00:37:34 GST" duration-ms="7944" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -230,17 +217,17 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initializeBrowser -->
-        <test-method signature="VerifyTheUserIsAbleToPublishNews()[pri:0, instance:testScript.ManageNewsTest@13526e59]" started-at="2025-11-11T18:56:20 GST" name="VerifyTheUserIsAbleToPublishNews" description="To publish News" finished-at="2025-11-11T18:56:27 GST" duration-ms="7504" status="PASS">
+        <test-method signature="VerifyTheUserIsAbleToPublishNews()[pri:0, instance:testScript.ManageNewsTest@15d49048]" started-at="2025-11-12T00:37:34 GST" name="VerifyTheUserIsAbleToPublishNews" description="To publish News" finished-at="2025-11-12T00:37:37 GST" duration-ms="3002" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifyTheUserIsAbleToPublishNews -->
-        <test-method is-config="true" signature="windowCloseAndQuit()[pri:0, instance:testScript.ManageNewsTest@13526e59]" started-at="2025-11-11T18:56:27 GST" name="windowCloseAndQuit" finished-at="2025-11-11T18:56:28 GST" duration-ms="489" status="PASS">
+        <test-method is-config="true" signature="windowCloseAndQuit()[pri:0, instance:testScript.ManageNewsTest@15d49048]" started-at="2025-11-12T00:37:37 GST" name="windowCloseAndQuit" finished-at="2025-11-12T00:37:38 GST" duration-ms="460" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- windowCloseAndQuit -->
       </class> <!-- testScript.ManageNewsTest -->
       <class name="testScript.ManageFooterTextTest">
-        <test-method is-config="true" signature="initializeBrowser(java.lang.String)[pri:0, instance:testScript.ManageFooterTextTest@17503f6b]" started-at="2025-11-11T18:56:47 GST" name="initializeBrowser" finished-at="2025-11-11T18:56:52 GST" duration-ms="4982" status="PASS">
+        <test-method is-config="true" signature="initializeBrowser(java.lang.String)[pri:0, instance:testScript.ManageFooterTextTest@4470fbd6]" started-at="2025-11-12T00:37:12 GST" name="initializeBrowser" finished-at="2025-11-12T00:37:21 GST" duration-ms="8726" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -251,17 +238,17 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initializeBrowser -->
-        <test-method signature="VerifyTheUserIsAbleToUpdateFooterText()[pri:0, instance:testScript.ManageFooterTextTest@17503f6b]" started-at="2025-11-11T18:56:52 GST" name="VerifyTheUserIsAbleToUpdateFooterText" description=" To update footer text" finished-at="2025-11-11T18:56:59 GST" duration-ms="6630" status="PASS">
+        <test-method signature="VerifyTheUserIsAbleToUpdateFooterText()[pri:0, instance:testScript.ManageFooterTextTest@4470fbd6]" started-at="2025-11-12T00:37:21 GST" name="VerifyTheUserIsAbleToUpdateFooterText" description=" To update footer text" finished-at="2025-11-12T00:37:26 GST" duration-ms="5049" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifyTheUserIsAbleToUpdateFooterText -->
-        <test-method is-config="true" signature="windowCloseAndQuit()[pri:0, instance:testScript.ManageFooterTextTest@17503f6b]" started-at="2025-11-11T18:56:59 GST" name="windowCloseAndQuit" finished-at="2025-11-11T18:56:59 GST" duration-ms="310" status="PASS">
+        <test-method is-config="true" signature="windowCloseAndQuit()[pri:0, instance:testScript.ManageFooterTextTest@4470fbd6]" started-at="2025-11-12T00:37:26 GST" name="windowCloseAndQuit" finished-at="2025-11-12T00:37:26 GST" duration-ms="480" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- windowCloseAndQuit -->
       </class> <!-- testScript.ManageFooterTextTest -->
       <class name="testScript.HomeTest">
-        <test-method is-config="true" signature="initializeBrowser(java.lang.String)[pri:0, instance:testScript.HomeTest@36804139]" started-at="2025-11-11T18:57:29 GST" name="initializeBrowser" finished-at="2025-11-11T18:57:34 GST" duration-ms="4952" status="PASS">
+        <test-method is-config="true" signature="initializeBrowser(java.lang.String)[pri:0, instance:testScript.HomeTest@7098b907]" started-at="2025-11-12T00:37:38 GST" name="initializeBrowser" finished-at="2025-11-12T00:37:47 GST" duration-ms="9418" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -272,17 +259,17 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initializeBrowser -->
-        <test-method signature="VerifyTheUserIsAbleToLogout()[pri:0, instance:testScript.HomeTest@36804139]" started-at="2025-11-11T18:57:34 GST" name="VerifyTheUserIsAbleToLogout" description=" To logout from grocery application" finished-at="2025-11-11T18:57:38 GST" duration-ms="3752" status="PASS">
+        <test-method signature="VerifyTheUserIsAbleToLogout()[pri:0, instance:testScript.HomeTest@7098b907]" started-at="2025-11-12T00:37:47 GST" name="VerifyTheUserIsAbleToLogout" description=" To logout from grocery application" finished-at="2025-11-12T00:37:50 GST" duration-ms="2924" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifyTheUserIsAbleToLogout -->
-        <test-method is-config="true" signature="windowCloseAndQuit()[pri:0, instance:testScript.HomeTest@36804139]" started-at="2025-11-11T18:57:38 GST" name="windowCloseAndQuit" finished-at="2025-11-11T18:57:38 GST" duration-ms="432" status="PASS">
+        <test-method is-config="true" signature="windowCloseAndQuit()[pri:0, instance:testScript.HomeTest@7098b907]" started-at="2025-11-12T00:37:50 GST" name="windowCloseAndQuit" finished-at="2025-11-12T00:37:51 GST" duration-ms="400" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- windowCloseAndQuit -->
       </class> <!-- testScript.HomeTest -->
       <class name="testScript.AdminUsersTest">
-        <test-method is-config="true" signature="initializeBrowser(java.lang.String)[pri:0, instance:testScript.AdminUsersTest@2235eaab]" started-at="2025-11-11T18:56:28 GST" name="initializeBrowser" finished-at="2025-11-11T18:56:35 GST" duration-ms="7039" status="PASS">
+        <test-method is-config="true" signature="initializeBrowser(java.lang.String)[pri:0, instance:testScript.AdminUsersTest@78452606]" started-at="2025-11-12T00:36:25 GST" name="initializeBrowser" finished-at="2025-11-12T00:36:32 GST" duration-ms="7178" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -293,85 +280,15 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initializeBrowser -->
-        <test-method signature="VerifyTheUserIsAbleToAddAdminUsers()[pri:0, instance:testScript.AdminUsersTest@2235eaab]" started-at="2025-11-11T18:56:35 GST" name="VerifyTheUserIsAbleToAddAdminUsers" description="To add admin users with user type" finished-at="2025-11-11T18:56:47 GST" duration-ms="12389" status="FAIL">
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='alert alert-success alert-dismissible']"}
-  (Session info: chrome=142.0.7444.60)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.31.0', revision: '1ef9f18787*'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [0509199237c3c210f76e089fc2c1be49, findElement {using=xpath, value=//div[@class='alert alert-success alert-dismissible']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.60, chrome: {chromedriverVersion: 142.0.7444.61 (9884f628acbc..., userDataDir: C:\Users\shelj\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64480}, goog:processID: 41420, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64480/devtoo..., se:cdpVersion: 142.0.7444.60, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 0509199237c3c210f76e089fc2c1be49]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='alert alert-success alert-dismissible']"}
-  (Session info: chrome=142.0.7444.60)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.31.0', revision: '1ef9f18787*'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [0509199237c3c210f76e089fc2c1be49, findElement {using=xpath, value=//div[@class='alert alert-success alert-dismissible']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.60, chrome: {chromedriverVersion: 142.0.7444.61 (9884f628acbc..., userDataDir: C:\Users\shelj\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64480}, goog:processID: 41420, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64480/devtoo..., se:cdpVersion: 142.0.7444.60, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 0509199237c3c210f76e089fc2c1be49
-at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
-at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
-at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
-at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-at jdk.proxy2/jdk.proxy2.$Proxy15.isDisplayed(Unknown Source)
-at pages.AdminUsersPage.isAlertDisplayed(AdminUsersPage.java:79)
-at testScript.AdminUsersTest.VerifyTheUserIsAbleToAddAdminUsers(AdminUsersTest.java:56)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at org.testng.TestRunner.privateRun(TestRunner.java:739)
-at org.testng.TestRunner.run(TestRunner.java:614)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+        <test-method signature="VerifyTheUserIsAbleToAddAdminUsers()[pri:0, instance:testScript.AdminUsersTest@78452606]" started-at="2025-11-12T00:36:32 GST" name="VerifyTheUserIsAbleToAddAdminUsers" description="To add admin users with user type" finished-at="2025-11-12T00:36:38 GST" duration-ms="5097" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifyTheUserIsAbleToAddAdminUsers -->
-        <test-method is-config="true" signature="windowCloseAndQuit()[pri:0, instance:testScript.AdminUsersTest@2235eaab]" started-at="2025-11-11T18:56:47 GST" name="windowCloseAndQuit" finished-at="2025-11-11T18:56:47 GST" duration-ms="430" status="PASS">
+        <test-method is-config="true" signature="windowCloseAndQuit()[pri:0, instance:testScript.AdminUsersTest@78452606]" started-at="2025-11-12T00:36:38 GST" name="windowCloseAndQuit" finished-at="2025-11-12T00:36:38 GST" duration-ms="394" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- windowCloseAndQuit -->
       </class> <!-- testScript.AdminUsersTest -->
-    </test> <!-- Manage News -->
-  </suite> <!-- Grocery Application -->
+    </test> <!-- SmartCart Supermarket Automation - Phase 1 -->
+  </suite> <!-- SmartCart Supermarket -->
 </testng-results>

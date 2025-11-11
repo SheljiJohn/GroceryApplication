@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 
-<suite name="Grocery Application - Multi Browser Testing">
-    <test thread-count="5" name="ChromeTest">
+<suite name="SmartCart Supermarket">
+    <test thread-count="5" name="SmartCart Supermarket Automation - Phase 1">
     <parameter name="browser" value="Chrome"></parameter>
     <groups><run><include name="Regression Testing"></include></run></groups>
         <classes>

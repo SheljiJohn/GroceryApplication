@@ -18,6 +18,7 @@ public class AdminUsersPage {
 	 * "//p[text() = 'Admin Users']//following::a[@href='https://groceryapp.uniqassosiates.com/admin/list-admin']"
 	 * ) WebElement adminUsersMoreInfolink;
 	 */
+	
 	@FindBy(xpath = "//a[@href='javascript:void(0)' and @class = 'btn btn-rounded btn-danger']")
 	WebElement newAdminuser;
 	@FindBy(xpath = "//input[@id='username']")

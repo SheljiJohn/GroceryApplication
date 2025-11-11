@@ -27,9 +27,9 @@ public class LoginTest extends Base
 		String username = ExcelUtility.getStringData(1, 0, "loginpage");
 		String password = ExcelUtility.getStringData(1, 1, "loginpage");
 		LoginPage login = new LoginPage(driver);
-		login.enterTheUserName(username).enterThePassword(password).clickOnSignIn();
+		login.enterTheUserName(username).enterThePassword(password);
 		// login.enterThePassword(password);
-		homepage = login.clickOnSignIn();
+		login.clickOnSignIn();
 
 		// Assertion
 		boolean visibilty = login.isHomePageLoaded();

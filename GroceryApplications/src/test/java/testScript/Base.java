@@ -29,10 +29,10 @@ public class Base {
 	@Parameters("browser")
 
 	public void initializeBrowser(String browser) throws Exception {
-		// driver = new ChromeDriver();
+		 driver = new ChromeDriver();
 
 		// fetching url
-	/*	try {
+		try {
 
 			properties = new Properties();
 
@@ -41,7 +41,7 @@ public class Base {
 			properties.load(fileinput);
 		} catch (Exception e) {
 			System.out.println(e);
-		} */
+		} 
 
 		if (browser.equalsIgnoreCase("Chrome")) {
 			driver = new ChromeDriver();
@@ -55,16 +55,16 @@ public class Base {
 			throw new Exception("Browser not defined!!!!!!");
 		}
 
-		 driver.get("https://groceryapp.uniqassosiates.com/admin/login");
+		// driver.get("https://groceryapp.uniqassosiates.com/admin/login");
 		// fetching url from file
-	//	driver.get(properties.getProperty("url"));
+		driver.get(properties.getProperty("url"));
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(WaitUtilities.IMPLICITWAIT));
 		driver.manage().window().maximize();
 	}
 
 	@AfterMethod(alwaysRun = true)
 	public void windowCloseAndQuit() throws IOException {
-
+		System.out.println("Closing browser...");
 		driver.quit();
 	}
 

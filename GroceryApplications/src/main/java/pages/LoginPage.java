@@ -5,6 +5,8 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
+import utilities.WaitUtilities;
+
 public class LoginPage {
 
 	@FindBy(xpath = "//input[@name='username']")
@@ -12,11 +14,13 @@ public class LoginPage {
 	@FindBy(xpath = "//input[@name='password']")
 	WebElement password;
 	@FindBy(xpath = "//button[text()='Sign In']")
-	WebElement signIn;
+	WebElement signIn; 
+	/*@FindBy(xpath = "//button[@fdprocessedid='o942xr']")
+	WebElement signIn; */
 	@FindBy(xpath = "//button[@data-dismiss = 'alert']")
 	WebElement alert;
-	@FindBy(xpath = "//p[text()= 'Dashboard']")
-	WebElement dashboard;
+	@FindBy(xpath = "//p[text()= 'Admin Users']")
+	WebElement home;
 
 	public WebDriver driver;
 
@@ -36,14 +40,25 @@ public class LoginPage {
 	}
 
 	public HomePage clickOnSignIn() {
+		
+		if(signIn.isDisplayed() == true)
+		{
 		signIn.click();
 		return new HomePage(driver);
+		}
+		else
+		{
+			WaitUtilities wait = new WaitUtilities();
+			wait.waitForvisibilityOfElementLocated(driver, signIn);
+			signIn.click();
+			return new HomePage(driver);
+		}
 	}
 
 	// Assertion
 
 	public boolean isHomePageLoaded() {
-		return dashboard.isDisplayed();
+		return home.isDisplayed();
 	}
 
 	public boolean isAlertDisplayed() {

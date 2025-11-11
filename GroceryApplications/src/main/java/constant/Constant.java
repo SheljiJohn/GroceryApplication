@@ -4,17 +4,13 @@ public class Constant {
 
 	public static final String TESTDATAFILE = System.getProperty("user.dir") + "\\src\\test\\resources\\TestData.xlsx";
 
-	public static final String CONFIGFILE = System.getProperty("user.dir")
-			+ "\\src\\main\\resources\\config.properties";
+	public static final String CONFIGFILE = System.getProperty("user.dir") + "\\src\\main\\resources\\config.properties";
 
 	
-	public static final String IMAGEFILEFOOD = System.getProperty("user.dir")
-			+ "\\src\\test\\resources\\Food_Biriyani.jpg";
+	public static final String IMAGEFILEFOOD = System.getProperty("user.dir") + "\\src\\test\\resources\\Food_Biriyani.jpg";
 	public static final String IMAGEFILETOYS = System.getProperty("user.dir") + "\\src\\test\\resources\\toys.jpg";
-	public static final String IMAGEFILECOCKTAIL = System.getProperty("user.dir")
-			+ "\\src\\test\\resources\\Cocktail.jpg";
-	public static final String IMAGEFILEAPPAREL = System.getProperty("user.dir")
-			+ "\\src\\test\\resources\\apparel.jpg";
+	public static final String IMAGEFILECOCKTAIL = System.getProperty("user.dir") + "\\src\\test\\resources\\Cocktail.jpg";
+	public static final String IMAGEFILEAPPAREL = System.getProperty("user.dir") + "\\src\\test\\resources\\apparel.jpg";
 
 	public static final String VALIDCREDENTIALS = "Home page is not loaded even if the user provided correct credentials!!!";
 	public static final String INVALIDCREDENTIALS = "Home page is loaded with invalid credentials!!!";
