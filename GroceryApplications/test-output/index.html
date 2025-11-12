@@ -25,7 +25,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -92,7 +92,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">10 methods, 1 failed,   9 passed</span>
+                    <span class="method-stats">10 methods, 2 failed,   8 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title failed">Failed methods</span>
@@ -101,6 +101,11 @@
                       <a href="#" panel-name="suite-SmartCart_Supermarket" class="show-methods failed suite-SmartCart_Supermarket"> (show)</a> <!-- show-methods failed suite-SmartCart_Supermarket -->
                     </span>
                     <div class="method-list-content failed suite-SmartCart_Supermarket">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SmartCart_Supermarket" title="testScript.AdminUsersTest" class="method navigator-link" hash-for-method="VerifyTheUserIsAbleToAddAdminUsers">VerifyTheUserIsAbleToAddAdminUsers</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
                       <span>
                         <img src="failed.png" width="3%"/>
                         <a href="#" panel-name="suite-SmartCart_Supermarket" title="testScript.ManageCategoryTest" class="method navigator-link" hash-for-method="VerifyTheUserIsAbleToAddCategory">VerifyTheUserIsAbleToAddCategory</a> <!-- method navigator-link -->
@@ -115,11 +120,6 @@
                       <a href="#" panel-name="suite-SmartCart_Supermarket" class="show-methods passed suite-SmartCart_Supermarket"> (show)</a> <!-- show-methods passed suite-SmartCart_Supermarket -->
                     </span>
                     <div class="method-list-content passed suite-SmartCart_Supermarket">
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-SmartCart_Supermarket" title="testScript.AdminUsersTest" class="method navigator-link" hash-for-method="VerifyTheUserIsAbleToAddAdminUsers">VerifyTheUserIsAbleToAddAdminUsers</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-SmartCart_Supermarket" title="testScript.HomeTest" class="method navigator-link" hash-for-method="VerifyTheUserIsAbleToLogout">VerifyTheUserIsAbleToLogout</a> <!-- method navigator-link -->
@@ -189,9 +189,9 @@ For documentation on this error, please visit: https://www.selenium.dev/document
 Build info: version: &apos;4.31.0&apos;, revision: &apos;1ef9f18787*&apos;
 System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.8&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [34825c5a18332b0567354932a15c72fd, findElement {value=//div[@class=&apos;alert alert-success alert-dismissible&apos;]//following::h5[text()=&apos; Alert!&apos;], using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.60, chrome: {chromedriverVersion: 142.0.7444.162 (c076baf266c..., userDataDir: C:\Users\shelj\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59088}, goog:processID: 8840, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59088/devtoo..., se:cdpVersion: 142.0.7444.60, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 34825c5a18332b0567354932a15c72fd
+Command: [0b78c7cd801b5f67d21b21c2d4ed3a2d, findElement {value=//div[@class=&apos;alert alert-success alert-dismissible&apos;]//following::h5[text()=&apos; Alert!&apos;], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.60, chrome: {chromedriverVersion: 142.0.7444.162 (c076baf266c..., userDataDir: C:\Users\shelj\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51075}, goog:processID: 13200, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51075/devtoo..., se:cdpVersion: 142.0.7444.60, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0b78c7cd801b5f67d21b21c2d4ed3a2d
 	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
@@ -213,6 +213,51 @@ Session ID: 34825c5a18332b0567354932a15c72fd
 </div> <!-- stack-trace -->
                   <em>
 (To add New category)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SmartCart_Supermarket-class-failed -->
+          <div class="suite-SmartCart_Supermarket-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">testScript.AdminUsersTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyTheUserIsAbleToAddAdminUsers">
+                  </a> <!-- VerifyTheUserIsAbleToAddAdminUsers -->
+                  <span class="method-name">VerifyTheUserIsAbleToAddAdminUsers</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@class=&apos;alert alert-success alert-dismissible&apos;]&quot;}
+  (Session info: chrome=142.0.7444.60)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.31.0&apos;, revision: &apos;1ef9f18787*&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.8&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a0777b5eae37264d51badc71e8bc5edd, findElement {value=//div[@class=&apos;alert alert-success alert-dismissible&apos;], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.60, chrome: {chromedriverVersion: 142.0.7444.162 (c076baf266c..., userDataDir: C:\Users\shelj\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61257}, goog:processID: 4780, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61257/devtoo..., se:cdpVersion: 142.0.7444.60, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a0777b5eae37264d51badc71e8bc5edd
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy15.isDisplayed(Unknown Source)
+	at pages.AdminUsersPage.isAlertDisplayed(AdminUsersPage.java:80)
+	at testScript.AdminUsersTest.VerifyTheUserIsAbleToAddAdminUsers(AdminUsersTest.java:56)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(To add admin users with user type)                  </em>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -329,23 +374,6 @@ Session ID: 34825c5a18332b0567354932a15c72fd
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-SmartCart_Supermarket-class-passed -->
-          <div class="suite-SmartCart_Supermarket-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">testScript.AdminUsersTest</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="VerifyTheUserIsAbleToAddAdminUsers">
-                  </a> <!-- VerifyTheUserIsAbleToAddAdminUsers -->
-                  <span class="method-name">VerifyTheUserIsAbleToAddAdminUsers</span>
-                  <em>
-(To add admin users with user type)                  </em>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-SmartCart_Supermarket-class-passed -->
         </div> <!-- panel SmartCart_Supermarket -->
         <div panel-name="test-xml-SmartCart_Supermarket" class="panel">
           <div class="main-panel-header rounded-window-top">
@@ -444,48 +472,48 @@ data.addRows(10);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'VerifyTheUserIsAbleToAddCategory')
 data.setCell(0, 2, 'testScript.ManageCategoryTest')
-data.setCell(0, 3, 10023);
+data.setCell(0, 3, 10071);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'VerifyTheUserIsAbleToUpdateContactDetails')
-data.setCell(1, 2, 'testScript.ManageContactTest')
-data.setCell(1, 3, 6815);
+data.setCell(1, 1, 'VerifyTheUserIsAbleToAddAdminUsers')
+data.setCell(1, 2, 'testScript.AdminUsersTest')
+data.setCell(1, 3, 9876);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'VerifyTheUserIsAbleToAddAdminUsers')
-data.setCell(2, 2, 'testScript.AdminUsersTest')
-data.setCell(2, 3, 5097);
+data.setCell(2, 1, 'VerifyTheUserIsAbleToUpdateContactDetails')
+data.setCell(2, 2, 'testScript.ManageContactTest')
+data.setCell(2, 3, 6604);
 data.setCell(3, 0, 3)
 data.setCell(3, 1, 'VerifyTheUserIsAbleToUpdateFooterText')
 data.setCell(3, 2, 'testScript.ManageFooterTextTest')
-data.setCell(3, 3, 5049);
+data.setCell(3, 3, 5970);
 data.setCell(4, 0, 4)
 data.setCell(4, 1, 'VerifyTheUserIsAbleToPublishNews')
 data.setCell(4, 2, 'testScript.ManageNewsTest')
-data.setCell(4, 3, 3002);
+data.setCell(4, 3, 3600);
 data.setCell(5, 0, 5)
 data.setCell(5, 1, 'verifyTheUserIsAbleToLoginUsingValidCredentials')
 data.setCell(5, 2, 'testScript.LoginTest')
-data.setCell(5, 3, 2973);
+data.setCell(5, 3, 3360);
 data.setCell(6, 0, 6)
 data.setCell(6, 1, 'VerifyTheUserIsAbleToLogout')
 data.setCell(6, 2, 'testScript.HomeTest')
-data.setCell(6, 3, 2924);
+data.setCell(6, 3, 2499);
 data.setCell(7, 0, 7)
-data.setCell(7, 1, 'verifyTheUserIsUnableToLoginwithInvalidUsernameandValidPassword')
+data.setCell(7, 1, 'verifyTheUserIsUnableToLoginwithValidUsernameandInvalidPassword')
 data.setCell(7, 2, 'testScript.LoginTest')
-data.setCell(7, 3, 1238);
+data.setCell(7, 3, 1655);
 data.setCell(8, 0, 8)
-data.setCell(8, 1, 'verifyTheUserIsUnableToLoginwithInValidUsernameandInvalidPassword')
+data.setCell(8, 1, 'verifyTheUserIsUnableToLoginwithInvalidUsernameandValidPassword')
 data.setCell(8, 2, 'testScript.LoginTest')
-data.setCell(8, 3, 1152);
+data.setCell(8, 3, 1369);
 data.setCell(9, 0, 9)
-data.setCell(9, 1, 'verifyTheUserIsUnableToLoginwithValidUsernameandInvalidPassword')
+data.setCell(9, 1, 'verifyTheUserIsUnableToLoginwithInValidUsernameandInvalidPassword')
 data.setCell(9, 2, 'testScript.LoginTest')
-data.setCell(9, 3, 1151);
+data.setCell(9, 3, 713);
 window.suiteTableData['SmartCart_Supermarket']= { tableData: data, tableDiv: 'times-div-SmartCart_Supermarket'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 39 seconds</span>
+              <span class="suite-total-time">Total running time: 45 seconds</span>
               <div id="times-div-SmartCart_Supermarket">
               </div> <!-- times-div-SmartCart_Supermarket -->
             </div> <!-- times-div -->
@@ -518,139 +546,141 @@ return data;
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">verifyTheUserIsAbleToLoginUsingValidCredentials</span>
-                <span class="method-start">6908 ms</span>
+                <span class="method-start">8057 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">windowCloseAndQuit</span>
-                <span class="method-start">9901 ms</span>
+                <span class="method-start">11427 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">initializeBrowser(Chrome)</span>
-                <span class="method-start">10292 ms</span>
+                <span class="method-start">11889 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">verifyTheUserIsUnableToLoginwithInValidUsernameandInvalidPassword</span>
-                <span class="method-start">17799 ms</span>
+                <span class="method-start">19175 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">windowCloseAndQuit</span>
-                <span class="method-start">18951 ms</span>
+                <span class="method-start">19895 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">initializeBrowser(Chrome)</span>
-                <span class="method-start">19313 ms</span>
+                <span class="method-start">20263 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">verifyTheUserIsUnableToLoginwithInvalidUsernameandValidPassword</span>
-                <span class="method-start">27032 ms</span>
+                <span class="method-start">28272 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">windowCloseAndQuit</span>
-                <span class="method-start">28270 ms</span>
+                <span class="method-start">29646 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">initializeBrowser(Chrome)</span>
-                <span class="method-start">28617 ms</span>
+                <span class="method-start">29996 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">verifyTheUserIsUnableToLoginwithValidUsernameandInvalidPassword</span>
-                <span class="method-start">36507 ms</span>
+                <span class="method-start">37450 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">windowCloseAndQuit</span>
-                <span class="method-start">37661 ms</span>
+                <span class="method-start">39111 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testScript.AdminUsersTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">initializeBrowser(Chrome)</span>
-                <span class="method-start">38072 ms</span>
+                <span class="method-start">39508 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">VerifyTheUserIsAbleToAddAdminUsers</span>
-                <span class="method-start">45250 ms</span>
+                <span class="method-start">47384 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">windowCloseAndQuit</span>
-                <span class="method-start">50356 ms</span>
+                <span class="method-start">57287 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testScript.ManageCategoryTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">initializeBrowser(Chrome)</span>
-                <span class="method-start">50752 ms</span>
+                <span class="method-start">57691 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">VerifyTheUserIsAbleToAddCategory</span>
-                <span class="method-start">58981 ms</span>
+                <span class="method-start">66198 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">windowCloseAndQuit</span>
-                <span class="method-start">69016 ms</span>
+                <span class="method-start">76287 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testScript.ManageContactTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">initializeBrowser(Chrome)</span>
-                <span class="method-start">69391 ms</span>
+                <span class="method-start">76720 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">VerifyTheUserIsAbleToUpdateContactDetails</span>
-                <span class="method-start">77707 ms</span>
+                <span class="method-start">84934 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">windowCloseAndQuit</span>
-                <span class="method-start">84522 ms</span>
+                <span class="method-start">91543 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testScript.ManageFooterTextTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">initializeBrowser(Chrome)</span>
-                <span class="method-start">84961 ms</span>
+                <span class="method-start">91973 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">VerifyTheUserIsAbleToUpdateFooterText</span>
-                <span class="method-start">93687 ms</span>
+                <span class="method-start">99856 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">windowCloseAndQuit</span>
-                <span class="method-start">98736 ms</span>
+                <span class="method-start">105832 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testScript.ManageNewsTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">initializeBrowser(Chrome)</span>
-                <span class="method-start">99218 ms</span>
+                <span class="method-start">106294 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">VerifyTheUserIsAbleToPublishNews</span>
-                <span class="method-start">107162 ms</span>
+                <span class="method-start">114975 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">windowCloseAndQuit</span>
-                <span class="method-start">110164 ms</span>
+                <span class="method-start">118575 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testScript.HomeTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">initializeBrowser(Chrome)</span>
-                <span class="method-start">110628 ms</span>
+                <span class="method-start">119015 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">VerifyTheUserIsAbleToLogout</span>
-                <span class="method-start">120046 ms</span>
+                <span class="method-start">129366 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">windowCloseAndQuit</span>
-                <span class="method-start">122970 ms</span>
+                <span class="method-start">131867 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

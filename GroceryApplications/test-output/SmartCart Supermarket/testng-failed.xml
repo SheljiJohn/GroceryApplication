@@ -14,6 +14,13 @@
           <include name="initializeBrowser"/>
         </methods>
       </class> <!-- testScript.ManageCategoryTest -->
+      <class name="testScript.AdminUsersTest">
+        <methods>
+          <include name="VerifyTheUserIsAbleToAddAdminUsers"/>
+          <include name="windowCloseAndQuit"/>
+          <include name="initializeBrowser"/>
+        </methods>
+      </class> <!-- testScript.AdminUsersTest -->
     </classes>
   </test> <!-- SmartCart Supermarket Automation - Phase 1(failed) -->
 </suite> <!-- Failed suite [SmartCart Supermarket] -->

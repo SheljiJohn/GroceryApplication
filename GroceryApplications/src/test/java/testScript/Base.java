@@ -64,7 +64,6 @@ public class Base {
 
 	@AfterMethod(alwaysRun = true)
 	public void windowCloseAndQuit() throws IOException {
-		System.out.println("Closing browser...");
 		driver.quit();
 	}
 
